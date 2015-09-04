@@ -1,0 +1,28 @@
+# Tarea-2
+
+//tamaño del canvas
+size(1000,700);
+//pacman con cuartos
+fill(0);
+arc(300,300,350,350,PI/4,(7*PI)/4,PIE);
+//pacman con cuarto y sextos
+//arc(500,500,150,150,PI/4,(10*PI)/4); 
+//escena
+//lampara
+fill(0);
+rect(550,20,10,200);
+noFill();
+arc(560,40,250,25,PI,(7*PI)/4);
+fill(255);
+ellipse(630,40,20,20);
+//carretera
+line(560,220,760,0);
+line(750,220,860,0);
+quad(675,170,725,110,735,110,690,170);
+quad(749,85,796,25,790,25,739,85);
+//triangulo equilatero
+noFill();
+ellipse(700,450,200,200);
+ellipse(700,550,200,200);
+line(600,450,800,450);
+triangle(613,500,787,500,700,350);
